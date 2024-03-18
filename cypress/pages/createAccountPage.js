@@ -7,7 +7,7 @@ class CreateAccount {
     createNewAccount() {
         cy.get('#firstname').type('Thiago.,')
         cy.get('#lastname').type('Zambroti.,') 
-        cy.get('#email_address').type('thiagozambroti17@teste.com')
+        cy.get('#email_address').type('thiagozambroti181@teste.com')
         cy.get('#password').type('Teste12345')
         cy.get('#password-confirmation').type('Teste12345')
         cy.get('.action.submit.primary').click()
